@@ -1,0 +1,44 @@
+{
+  "name": "learnings",
+  "version": "1.0.0",
+  "description": "Datastructures and algorithms in javascript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src/*",
+    "test": "jest"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "keywords": [
+    "algorithms",
+    "javascript",
+    "data-structures",
+    "algorithms in javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scsiva1991/learnings.git"
+  },
+  "author": "scsiva1991",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scsiva1991/learnings/issues"
+  },
+  "homepage": "https://github.com/scsiva1991/learnings#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.4.2",
+    "pre-commit": "^1.2.2",
+    "regenerator-runtime": "^0.12.0"
+  }
+}
